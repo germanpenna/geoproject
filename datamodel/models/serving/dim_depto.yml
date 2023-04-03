@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: dim_depto
+    columns:
+      - name: depto_codigo
+        tests:
+          - not_null
+          - unique
+          - number_layers:
+              count: 33
+      - name: depto_latitud
+        tests:
+          - val_latitude
+      - name: depto_longitud
+        tests:
+          - val_longitude

@@ -1,0 +1,7 @@
+version: 2
+
+seeds:
+  - name: RAW_CLASE
+    config:
+      database: GEODATA
+      schema: SOURCE

@@ -1,0 +1,2685 @@
+version: 2
+sources:
+  - name: geodata
+    database: geodata
+    schema: source
+    tables:
+      - name: raw_depto
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: DPTO_CNMBR
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: Shape_Leng
+            description: ''
+            tests: null
+          - name: Shape_Area
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_mcipio
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CNMBR
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: Shape_Leng
+            description: ''
+            tests: null
+          - name: Shape_Area
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_mcipiocl
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CLASE
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: Shape_Leng
+            description: ''
+            tests: null
+          - name: Shape_Area
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_sectorrural
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCNCT
+            description: ''
+            tests: null
+          - name: SECR_CCDGO
+            description: ''
+            tests: null
+          - name: SECR_CCNCT
+            description: ''
+            tests: null
+          - name: ZU_CCDGO
+            description: ''
+            tests: null
+          - name: ZU_CDIVI
+            description: ''
+            tests: null
+          - name: SETU_CCDGO
+            description: ''
+            tests: null
+          - name: SETU_CCNCT
+            description: ''
+            tests: null
+          - name: SECU_CCDGO
+            description: ''
+            tests: null
+          - name: SECU_CCNCT
+            description: ''
+            tests: null
+          - name: DATOS_ANM
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_seccionrural
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCNCT
+            description: ''
+            tests: null
+          - name: SECR_CCDGO
+            description: ''
+            tests: null
+          - name: SECR_CCNCT
+            description: ''
+            tests: null
+          - name: ZU_CCDGO
+            description: ''
+            tests: null
+          - name: ZU_CDIVI
+            description: ''
+            tests: null
+          - name: SETU_CCDGO
+            description: ''
+            tests: null
+          - name: SETU_CCNCT
+            description: ''
+            tests: null
+          - name: SECU_CCDGO
+            description: ''
+            tests: null
+          - name: SECU_CCNCT
+            description: ''
+            tests: null
+          - name: AG_CCDGO
+            description: ''
+            tests: null
+          - name: DATOS_ANM
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_zonaurbana
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCNCT
+            description: ''
+            tests: null
+          - name: SECR_CCDGO
+            description: ''
+            tests: null
+          - name: SECR_CCNCT
+            description: ''
+            tests: null
+          - name: NOM_CPOB
+            description: ''
+            tests: null
+          - name: ZU_CCDGO
+            description: ''
+            tests: null
+          - name: ZU_CDIVI
+            description: ''
+            tests: null
+          - name: SETU_CCDGO
+            description: ''
+            tests: null
+          - name: SETU_CCNCT
+            description: ''
+            tests: null
+          - name: SECU_CCDGO
+            description: ''
+            tests: null
+          - name: SECU_CCNCT
+            description: ''
+            tests: null
+          - name: DATOS_ANM
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_sectorurbano
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCNCT
+            description: ''
+            tests: null
+          - name: SECR_CCDGO
+            description: ''
+            tests: null
+          - name: SECR_CCNCT
+            description: ''
+            tests: null
+          - name: ZU_CCDGO
+            description: ''
+            tests: null
+          - name: ZU_CDIVI
+            description: ''
+            tests: null
+          - name: SETU_CCDGO
+            description: ''
+            tests: null
+          - name: SETU_CCNCT
+            description: ''
+            tests: null
+          - name: DATOS_ANM
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_seccionurbano
+        description: ''
+        tests: null
+        columns:
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCNCT
+            description: ''
+            tests: null
+          - name: SECR_CCDGO
+            description: ''
+            tests: null
+          - name: SECR_CCNCT
+            description: ''
+            tests: null
+          - name: ZU_CCDGO
+            description: ''
+            tests: null
+          - name: ZU_CDIVI
+            description: ''
+            tests: null
+          - name: SETU_CCDGO
+            description: ''
+            tests: null
+          - name: SETU_CCNCT
+            description: ''
+            tests: null
+          - name: SECU_CCDGO
+            description: ''
+            tests: null
+          - name: SECU_CCNCT
+            description: ''
+            tests: null
+          - name: DATOS_ANM
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: STCTNENCUE
+            description: ''
+            tests: null
+          - name: STP3_1_SI
+            description: ''
+            tests: null
+          - name: STP3_2_NO
+            description: ''
+            tests: null
+          - name: STP3A_RI
+            description: ''
+            tests: null
+          - name: STP3B_TCN
+            description: ''
+            tests: null
+          - name: STP4_1_SI
+            description: ''
+            tests: null
+          - name: STP4_2_NO
+            description: ''
+            tests: null
+          - name: STP9_1_USO
+            description: ''
+            tests: null
+          - name: STP9_2_USO
+            description: ''
+            tests: null
+          - name: STP9_3_USO
+            description: ''
+            tests: null
+          - name: STP9_4_USO
+            description: ''
+            tests: null
+          - name: STP9_2_1_M
+            description: ''
+            tests: null
+          - name: STP9_2_2_M
+            description: ''
+            tests: null
+          - name: STP9_2_3_M
+            description: ''
+            tests: null
+          - name: STP9_2_4_M
+            description: ''
+            tests: null
+          - name: STP9_2_9_M
+            description: ''
+            tests: null
+          - name: STP9_3_1_N
+            description: ''
+            tests: null
+          - name: STP9_3_2_N
+            description: ''
+            tests: null
+          - name: STP9_3_3_N
+            description: ''
+            tests: null
+          - name: STP9_3_4_N
+            description: ''
+            tests: null
+          - name: STP9_3_5_N
+            description: ''
+            tests: null
+          - name: STP9_3_6_N
+            description: ''
+            tests: null
+          - name: STP9_3_7_N
+            description: ''
+            tests: null
+          - name: STP9_3_8_N
+            description: ''
+            tests: null
+          - name: STP9_3_9_N
+            description: ''
+            tests: null
+          - name: STP9_3_10
+            description: ''
+            tests: null
+          - name: STP9_3_99
+            description: ''
+            tests: null
+          - name: STVIVIENDA
+            description: ''
+            tests: null
+          - name: STP14_1_TI
+            description: ''
+            tests: null
+          - name: STP14_2_TI
+            description: ''
+            tests: null
+          - name: STP14_3_TI
+            description: ''
+            tests: null
+          - name: STP14_4_TI
+            description: ''
+            tests: null
+          - name: STP14_5_TI
+            description: ''
+            tests: null
+          - name: STP14_6_TI
+            description: ''
+            tests: null
+          - name: STP15_1_OC
+            description: ''
+            tests: null
+          - name: STP15_2_OC
+            description: ''
+            tests: null
+          - name: STP15_3_OC
+            description: ''
+            tests: null
+          - name: STP15_4_OC
+            description: ''
+            tests: null
+          - name: TSP16_HOG
+            description: ''
+            tests: null
+          - name: STP19_EC_1
+            description: ''
+            tests: null
+          - name: STP19_ES_2
+            description: ''
+            tests: null
+          - name: STP19_EE_1
+            description: ''
+            tests: null
+          - name: STP19_EE_2
+            description: ''
+            tests: null
+          - name: STP19_EE_3
+            description: ''
+            tests: null
+          - name: STP19_EE_4
+            description: ''
+            tests: null
+          - name: STP19_EE_5
+            description: ''
+            tests: null
+          - name: STP19_EE_6
+            description: ''
+            tests: null
+          - name: STP19_EE_9
+            description: ''
+            tests: null
+          - name: STP19_ACU1
+            description: ''
+            tests: null
+          - name: STP19_ACU2
+            description: ''
+            tests: null
+          - name: STP19_ALC1
+            description: ''
+            tests: null
+          - name: STP19_ALC2
+            description: ''
+            tests: null
+          - name: STP19_GAS1
+            description: ''
+            tests: null
+          - name: STP19_GAS2
+            description: ''
+            tests: null
+          - name: STP19_GAS9
+            description: ''
+            tests: null
+          - name: STP19_REC1
+            description: ''
+            tests: null
+          - name: STP19_REC2
+            description: ''
+            tests: null
+          - name: STP19_INT1
+            description: ''
+            tests: null
+          - name: STP19_INT2
+            description: ''
+            tests: null
+          - name: STP19_INT9
+            description: ''
+            tests: null
+          - name: STP27_PERS
+            description: ''
+            tests: null
+          - name: STPERSON_L
+            description: ''
+            tests: null
+          - name: STPERSON_S
+            description: ''
+            tests: null
+          - name: STP32_1_SE
+            description: ''
+            tests: null
+          - name: STP32_2_SE
+            description: ''
+            tests: null
+          - name: STP34_1_ED
+            description: ''
+            tests: null
+          - name: STP34_2_ED
+            description: ''
+            tests: null
+          - name: STP34_3_ED
+            description: ''
+            tests: null
+          - name: STP34_4_ED
+            description: ''
+            tests: null
+          - name: STP34_5_ED
+            description: ''
+            tests: null
+          - name: STP34_6_ED
+            description: ''
+            tests: null
+          - name: STP34_7_ED
+            description: ''
+            tests: null
+          - name: STP34_8_ED
+            description: ''
+            tests: null
+          - name: STP34_9_ED
+            description: ''
+            tests: null
+          - name: STP51_PRIM
+            description: ''
+            tests: null
+          - name: STP51_SECU
+            description: ''
+            tests: null
+          - name: STP51_SUPE
+            description: ''
+            tests: null
+          - name: STP51_POST
+            description: ''
+            tests: null
+          - name: STP51_13_E
+            description: ''
+            tests: null
+          - name: STP51_99_E
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
+      - name: raw_manzana
+        description: ''
+        tests: null
+        columns:
+          - name: COD_DANE_A
+            description: ''
+            tests: null
+          - name: DPTO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CCDGO
+            description: ''
+            tests: null
+          - name: MPIO_CDPMP
+            description: ''
+            tests: null
+          - name: CLAS_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCDGO
+            description: ''
+            tests: null
+          - name: SETR_CCNCT
+            description: ''
+            tests: null
+          - name: SECR_CCDGO
+            description: ''
+            tests: null
+          - name: SECR_CCNCT
+            description: ''
+            tests: null
+          - name: ZU_CCDGO
+            description: ''
+            tests: null
+          - name: ZU_CDIVI
+            description: ''
+            tests: null
+          - name: SETU_CCDGO
+            description: ''
+            tests: null
+          - name: SETU_CCNCT
+            description: ''
+            tests: null
+          - name: SECU_CCDGO
+            description: ''
+            tests: null
+          - name: SECU_CCNCT
+            description: ''
+            tests: null
+          - name: MANZ_CCDGO
+            description: ''
+            tests: null
+          - name: AG_CCDGO
+            description: ''
+            tests: null
+          - name: DATO_ANM
+            description: ''
+            tests: null
+          - name: VERSION
+            description: ''
+            tests: null
+          - name: AREA
+            description: ''
+            tests: null
+          - name: LATITUD
+            description: ''
+            tests: null
+          - name: LONGITUD
+            description: ''
+            tests: null
+          - name: DENSIDAD
+            description: ''
+            tests: null
+          - name: CTNENCUEST
+            description: ''
+            tests: null
+          - name: TP3_1_SI
+            description: ''
+            tests: null
+          - name: TP3_2_NO
+            description: ''
+            tests: null
+          - name: TP3A_RI
+            description: ''
+            tests: null
+          - name: TP3B_TCN
+            description: ''
+            tests: null
+          - name: TP4_1_SI
+            description: ''
+            tests: null
+          - name: TP4_2_NO
+            description: ''
+            tests: null
+          - name: TP9_1_USO
+            description: ''
+            tests: null
+          - name: TP9_2_USO
+            description: ''
+            tests: null
+          - name: TP9_3_USO
+            description: ''
+            tests: null
+          - name: TP9_4_USO
+            description: ''
+            tests: null
+          - name: TP9_2_1_MI
+            description: ''
+            tests: null
+          - name: TP9_2_2_MI
+            description: ''
+            tests: null
+          - name: TP9_2_3_MI
+            description: ''
+            tests: null
+          - name: TP9_2_4_MI
+            description: ''
+            tests: null
+          - name: TP9_2_9_MI
+            description: ''
+            tests: null
+          - name: TP9_3_1_NO
+            description: ''
+            tests: null
+          - name: TP9_3_2_NO
+            description: ''
+            tests: null
+          - name: TP9_3_3_NO
+            description: ''
+            tests: null
+          - name: TP9_3_4_NO
+            description: ''
+            tests: null
+          - name: TP9_3_5_NO
+            description: ''
+            tests: null
+          - name: TP9_3_6_NO
+            description: ''
+            tests: null
+          - name: TP9_3_7_NO
+            description: ''
+            tests: null
+          - name: TP9_3_8_NO
+            description: ''
+            tests: null
+          - name: TP9_3_9_NO
+            description: ''
+            tests: null
+          - name: TP9_3_10_N
+            description: ''
+            tests: null
+          - name: TP9_3_99_N
+            description: ''
+            tests: null
+          - name: TVIVIENDA
+            description: ''
+            tests: null
+          - name: TP14_1_TIP
+            description: ''
+            tests: null
+          - name: TP14_2_TIP
+            description: ''
+            tests: null
+          - name: TP14_3_TIP
+            description: ''
+            tests: null
+          - name: TP14_4_TIP
+            description: ''
+            tests: null
+          - name: TP14_5_TIP
+            description: ''
+            tests: null
+          - name: TP14_6_TIP
+            description: ''
+            tests: null
+          - name: TP15_1_OCU
+            description: ''
+            tests: null
+          - name: TP15_2_OCU
+            description: ''
+            tests: null
+          - name: TP15_3_OCU
+            description: ''
+            tests: null
+          - name: TP15_4_OCU
+            description: ''
+            tests: null
+          - name: TP16_HOG
+            description: ''
+            tests: null
+          - name: TP19_EE_1
+            description: ''
+            tests: null
+          - name: TP19_EE_2
+            description: ''
+            tests: null
+          - name: TP19_EE_E1
+            description: ''
+            tests: null
+          - name: TP19_EE_E2
+            description: ''
+            tests: null
+          - name: TP19_EE_E3
+            description: ''
+            tests: null
+          - name: TP19_EE_E4
+            description: ''
+            tests: null
+          - name: TP19_EE_E5
+            description: ''
+            tests: null
+          - name: TP19_EE_E6
+            description: ''
+            tests: null
+          - name: TP19_EE_E9
+            description: ''
+            tests: null
+          - name: TP19_ACU_1
+            description: ''
+            tests: null
+          - name: TP19_ACU_2
+            description: ''
+            tests: null
+          - name: TP19_ALC_1
+            description: ''
+            tests: null
+          - name: TP19_ALC_2
+            description: ''
+            tests: null
+          - name: TP19_GAS_1
+            description: ''
+            tests: null
+          - name: TP19_GAS_2
+            description: ''
+            tests: null
+          - name: TP19_GAS_9
+            description: ''
+            tests: null
+          - name: TP19_RECB1
+            description: ''
+            tests: null
+          - name: TP19_RECB2
+            description: ''
+            tests: null
+          - name: TP19_INTE1
+            description: ''
+            tests: null
+          - name: TP19_INTE2
+            description: ''
+            tests: null
+          - name: TP19_INTE9
+            description: ''
+            tests: null
+          - name: TP27_PERSO
+            description: ''
+            tests: null
+          - name: PERSONAS_L
+            description: ''
+            tests: null
+          - name: PERSONAS_S
+            description: ''
+            tests: null
+          - name: TP32_1_SEX
+            description: ''
+            tests: null
+          - name: TP32_2_SEX
+            description: ''
+            tests: null
+          - name: TP34_1_EDA
+            description: ''
+            tests: null
+          - name: TP34_2_EDA
+            description: ''
+            tests: null
+          - name: TP34_3_EDA
+            description: ''
+            tests: null
+          - name: TP34_4_EDA
+            description: ''
+            tests: null
+          - name: TP34_5_EDA
+            description: ''
+            tests: null
+          - name: TP34_6_EDA
+            description: ''
+            tests: null
+          - name: TP34_7_EDA
+            description: ''
+            tests: null
+          - name: TP34_8_EDA
+            description: ''
+            tests: null
+          - name: TP34_9_EDA
+            description: ''
+            tests: null
+          - name: TP51PRIMAR
+            description: ''
+            tests: null
+          - name: TP51SECUND
+            description: ''
+            tests: null
+          - name: TP51SUPERI
+            description: ''
+            tests: null
+          - name: TP51POSTGR
+            description: ''
+            tests: null
+          - name: TP51_13_ED
+            description: ''
+            tests: null
+          - name: TP51_99_ED
+            description: ''
+            tests: null
+          - name: CD_LC_CM
+            description: ''
+            tests: null
+          - name: NMB_LC_CM
+            description: ''
+            tests: null
+          - name: TP_LC_CM
+            description: ''
+            tests: null
+          - name: Shape_Leng
+            description: ''
+            tests: null
+          - name: Shape_Area
+            description: ''
+            tests: null
+          - name: geometry
+            description: ''
+            tests: null
