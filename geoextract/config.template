@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export s3_access_key=""
+export s3_secret_key=""
+export s3_aws_region=""
+export s3_bucket=""
+export airbyte_server=""
+export airbyte_auth=""
+
+export PYTHONPATH=`pwd`
