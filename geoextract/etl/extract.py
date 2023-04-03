@@ -9,6 +9,18 @@ def extractS3(
         models:dict,
         logger
         ):
+    """
+        Parameters
+        ----------
+        client : boto3 client
+            The client to connect to S3
+        bucket : str
+            The S3 bucket name
+        models : dict
+            The dictionary read from the YAML file with the URLs of the files
+        logger
+            Logging object to write the results of the process
+    """
     
     logger.info("Validating existing models")
     filesExisting = utility.extract.checkExisting(path='source', client=client, bucket=bucket, includeBlock=False)

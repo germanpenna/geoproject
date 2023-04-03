@@ -1,7 +1,23 @@
 from graphlib import TopologicalSorter
 from airbyte.airbyte import AirbyteConnection
 
-def loadAirbyte(host_ab, auth_id_ab, config, logger):
+def loadAirbyte(
+        host_ab:str, 
+        auth_id_ab:str, 
+        config, 
+        logger):
+    """
+        Parameters
+        ----------
+        host_ab : str
+            URL of the airbyte server
+        bucket : str
+            The S3 bucket name
+        config
+            The dictionary read from the YAML file with the ids of the Airbyte processes
+        logger
+            Logging object to write the results of the process
+    """
     logger.info("Configuring extract process")
     host = host_ab
     auth_id = auth_id_ab

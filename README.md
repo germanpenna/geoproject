@@ -1,4 +1,4 @@
-![Screenshot of main square Colombia](https://cdn.pixabay.com/photo/2020/02/25/11/52/colombia-4878721_1280.jpg)
+![Screenshot of main square Colombia](installation/img/colombia-4878721_1280.jpg)
 
 # Introduction
 
