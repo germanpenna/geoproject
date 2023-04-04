@@ -1,26 +1,15 @@
 import os
 import yaml
 import boto3
-import logging
-import etl.extract
 import etl.load
-from graphlib import TopologicalSorter
-from airbyte.airbyte import AirbyteConnection
+import etl.extract
+import utility.logger
 
 def run_pipeline():
     with open("config.yml") as stream:
         config = yaml.safe_load(stream)
 
-    logger = logging.getLogger()
-    
-    logger.setLevel(logging.INFO)
-    console_handler = logging.StreamHandler()
-    log_format = '[%(levelname)s][%(asctime)s]: %(message)s'
-    console_handler.setFormatter(logging.Formatter(log_format))
-    logger.addHandler(console_handler)
-
-    logger.info("Connecting to the bucket")
-
+    logger = utility.logger.createLogger()
 
     bucket = os.environ.get(f"s3_bucket")
     client = boto3.client("s3", 
